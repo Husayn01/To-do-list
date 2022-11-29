@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: #3bee4a;
+}
+.container{
+    padding: 15px 30px;
+    color: white;
+    text-align: center;
+   
+  }
+  h1{
+    margin-bottom: 16px;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /* Clear floats after the header */
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+input#txt {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 70%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  input#txt:focus {
+    border: none;
+  }
+#btn {
+    padding: 10px;
+    width: 30%;
+    background-color: #42c44c;
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    border-radius: 0;
+  }
+  
+#mylist > div{
+    position: relative;
+    width: 80%;
+    padding: 14px 20px;
+    margin: auto;
+    margin-bottom: 14px;
+    background-color: #88f791;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+   font-family: Georgia, Times, 'Times New Roman', serif;
+}
+#mylist > div:hover{
+  transform: scale(1.1);
+    background-color: #42c44c;
+    transition: all 0.3s;
+}
+#mylist > div >input[type="checkbox"]{
+    position: absolute;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    }
